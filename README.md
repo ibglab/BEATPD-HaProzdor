@@ -40,10 +40,11 @@ Stage 3.2 - files in root directory, Python files Linux/Windows (add additional 
 ### Stage 4 - Ensemble model predictions
 
 Run the following Jupyter notebooks sequentially: 
-     4.1: "EnsembleModels.ipynb" (in the final submission we used seeds 1-20)  
+     4.1: "EnsembleModels.ipynb" (in the final submission we used seeds 1-32)  
      4.2: "SessionScore.ipynb" for generating test data predictions  
      4.3: "CherryPick.ipynb" for adjusting the mean scores and dropping naive subjects
 
+In the end of the process, the 3 final prediction files are generated under the main directory with the suffix "Predict.csv".
 
 ### Final directory hierarchy
 
