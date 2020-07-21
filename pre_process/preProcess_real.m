@@ -1,6 +1,6 @@
 clear; clc;
 sampRate = 50;
-numWindows = 20;
+numWindows = 10;
 winLen = sampRate*numWindows ;
 overlap = winLen/2;
 datasetName = 'REAL';
